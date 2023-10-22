@@ -9,7 +9,10 @@
 <body>
     <div class="container">
             <div class="gameboy">
-                <div class="screen"></div>
+                <div class="screen">
+                    <div class="background-image"></div>
+                    <div class="image-to-scroll"></div>
+                </div>
                 <div class="funciones">
                     <div class="croos">
                         <div class="up">
@@ -34,7 +37,7 @@
                 <div class="controls">
                     <div class="buttons-start">
                         
-                        <button id="buttonStart"></button>
+                        <button id="buttonStart" onclick="cambiarFondo()"></button>
                       
                         <button id="buttonSelect"></button>
                     </div>
