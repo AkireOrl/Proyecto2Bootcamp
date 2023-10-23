@@ -7,7 +7,7 @@ body{
 
 
 
-.container {
+.container-flex {
     width: 250px;
     height: 400px;
     justify-content: center;
@@ -27,7 +27,7 @@ body{
     align-items: center;
     justify-content: start;
     border-radius: 10px 10px 40px 10px;
-    box-shadow: 2px 2px 2px 1px rgba(242, 242, 242, 0.588);
+    box-shadow: 2px 2px 2px 1px rgba(242, 242, 242, 0.21);
 
 }
 .screen {
@@ -39,13 +39,14 @@ body{
 .buttons-ab {
     display: flex;
     justify-content: center;
-    width: 30%;
+    width: 40%;
     margin-top: 2em;
     transform: rotate(315deg);
     gap: 1em;
     background-color: #dfdfdf;
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 100%;
+    padding: 10px; 
+    
 }
 
 .croos {
@@ -112,17 +113,20 @@ body{
 }
 
 #buttonA{
-    border-radius: 80%;
+    border-radius: 100%;
     background-color: #a93671;
     padding: 1.2em;
     cursor: pointer;
-    
+    line-height: 0px;
 }
+
+
 #buttonB{
     border-radius: 80%;
     background-color: #a93671;
     padding: 1.2em;
     cursor: pointer;
+
     
 }
 
@@ -133,11 +137,13 @@ body{
      background-color: #999;
      border-radius: 30px;
      cursor: pointer;
+     line-height: 2px;
 }
 #buttonSelect{
-    height: 12px;
+     height: 12px;
      width: 60px;
      transform: rotate(340deg);
      background-color: #999;
      border-radius: 30px;
+     line-height: 2px;
 }
