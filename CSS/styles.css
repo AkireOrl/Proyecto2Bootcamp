@@ -150,8 +150,3 @@ body{
      border-radius: 30px;
      line-height: 2px;
 }
-
-#videoPlayer {
-    width: 100%; /* El 100% del ancho del div .screen */
-    height: 100%; /* El 100% de la altura del div .screen */
-}
