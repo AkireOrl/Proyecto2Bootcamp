@@ -27,6 +27,8 @@ body{
     align-items: center;
     justify-content: start;
     border-radius: 10px 10px 40px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(242, 242, 242, 0.588);
+
 }
 .screen {
     width: 200px;
@@ -43,7 +45,7 @@ body{
     gap: 1em;
     background-color: #dfdfdf;
     border-radius: 30px;
-    padding: 10px
+    padding: 10px;
 }
 
 .croos {
@@ -62,7 +64,7 @@ body{
    }
    
    .croos button {
-    cursor: pointer;
+   
     background-color: black;
    }
 
@@ -110,15 +112,17 @@ body{
 }
 
 #buttonA{
-    border-radius: 30px;
+    border-radius: 80%;
     background-color: #a93671;
     padding: 1.2em;
+    cursor: pointer;
     
 }
 #buttonB{
-    border-radius: 30px;
+    border-radius: 80%;
     background-color: #a93671;
     padding: 1.2em;
+    cursor: pointer;
     
 }
 
@@ -128,6 +132,7 @@ body{
      transform: rotate(340deg);
      background-color: #999;
      border-radius: 30px;
+     cursor: pointer;
 }
 #buttonSelect{
     height: 12px;
